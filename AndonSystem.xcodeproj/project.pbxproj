@@ -7,23 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5641A78E2B8733A40075B68D /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A78D2B8733A40075B68D /* ProfileScreenView.swift */; };
+		5641A7902B8733B50075B68D /* ProfileScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5641A78F2B8733B50075B68D /* ProfileScreenView.storyboard */; };
+		5641A7922B8733C00075B68D /* ProfileScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7912B8733C00075B68D /* ProfileScreenPresenter.swift */; };
+		5641A7942B8733C70075B68D /* ProfileScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7932B8733C70075B68D /* ProfileScreenInteractor.swift */; };
+		5641A7962B8733CF0075B68D /* ProfileScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7952B8733CF0075B68D /* ProfileScreenEntity.swift */; };
+		5641A7982B8733D50075B68D /* ProfileScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7972B8733D50075B68D /* ProfileScreenRouter.swift */; };
+		5641A79A2B87349E0075B68D /* ChatScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7992B87349E0075B68D /* ChatScreenView.swift */; };
+		5641A79C2B8734AD0075B68D /* ChatScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5641A79B2B8734AD0075B68D /* ChatScreenView.storyboard */; };
+		5641A79E2B8734C30075B68D /* ChatScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A79D2B8734C30075B68D /* ChatScreenPresenter.swift */; };
+		5641A7A02B8734D30075B68D /* ChatScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A79F2B8734D30075B68D /* ChatScreenInteractor.swift */; };
+		5641A7A22B8734F40075B68D /* ChatScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7A12B8734F40075B68D /* ChatScreenEntity.swift */; };
+		5641A7A42B8734FA0075B68D /* ChatScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7A32B8734FA0075B68D /* ChatScreenRouter.swift */; };
+		5641A7A62B8735760075B68D /* TicketHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7A52B8735760075B68D /* TicketHistoryView.swift */; };
+		5641A7A82B8735830075B68D /* TicketHistoryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5641A7A72B8735830075B68D /* TicketHistoryView.storyboard */; };
+		5641A7AA2B8735A40075B68D /* TicketHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7A92B8735A40075B68D /* TicketHistoryPresenter.swift */; };
+		5641A7AC2B8735B30075B68D /* TicketHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7AB2B8735B30075B68D /* TicketHistoryInteractor.swift */; };
+		5641A7AE2B8735D70075B68D /* TicketHistoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7AD2B8735D70075B68D /* TicketHistoryEntity.swift */; };
+		5641A7B02B8735E80075B68D /* TicketHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7AF2B8735E80075B68D /* TicketHistoryRouter.swift */; };
 		56EB25DC2B87260600028D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DB2B87260600028D8F /* AppDelegate.swift */; };
 		56EB25DE2B87260600028D8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DD2B87260600028D8F /* SceneDelegate.swift */; };
-		56EB25E02B87260600028D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DF2B87260600028D8F /* ViewController.swift */; };
-		56EB25E32B87260600028D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EB25E12B87260600028D8F /* Main.storyboard */; };
+		56EB25E02B87260600028D8F /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DF2B87260600028D8F /* HomeScreenView.swift */; };
+		56EB25E32B87260600028D8F /* HomeScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EB25E12B87260600028D8F /* HomeScreenView.storyboard */; };
 		56EB25E52B87260800028D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EB25E42B87260800028D8F /* Assets.xcassets */; };
 		56EB25E82B87260800028D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EB25E62B87260800028D8F /* LaunchScreen.storyboard */; };
+		56EB25F82B87281E00028D8F /* MainTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25F72B87281E00028D8F /* MainTabbarView.swift */; };
+		56EB25FA2B87286200028D8F /* MainTabbarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EB25F92B87286200028D8F /* MainTabbarView.storyboard */; };
+		56EB25FC2B87288000028D8F /* MainTabbarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25FB2B87288000028D8F /* MainTabbarPresenter.swift */; };
+		56EB25FE2B87288700028D8F /* MainTabbarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25FD2B87288700028D8F /* MainTabbarInteractor.swift */; };
+		56EB26002B87289400028D8F /* MainTabbarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25FF2B87289400028D8F /* MainTabbarEntity.swift */; };
+		56EB26022B87289C00028D8F /* MainTabbarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB26012B87289C00028D8F /* MainTabbarRouter.swift */; };
+		56EB26042B872AD700028D8F /* HomeScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB26032B872AD700028D8F /* HomeScreenPresenter.swift */; };
+		56EB26062B872B0400028D8F /* HomeScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB26052B872B0400028D8F /* HomeScreenInteractor.swift */; };
+		56EB26082B872B2800028D8F /* HomeScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB26072B872B2800028D8F /* HomeScreenEntity.swift */; };
+		56EB260A2B872B2E00028D8F /* HomeScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB26092B872B2E00028D8F /* HomeScreenRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5641A78D2B8733A40075B68D /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
+		5641A78F2B8733B50075B68D /* ProfileScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreenView.storyboard; sourceTree = "<group>"; };
+		5641A7912B8733C00075B68D /* ProfileScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenPresenter.swift; sourceTree = "<group>"; };
+		5641A7932B8733C70075B68D /* ProfileScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenInteractor.swift; sourceTree = "<group>"; };
+		5641A7952B8733CF0075B68D /* ProfileScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenEntity.swift; sourceTree = "<group>"; };
+		5641A7972B8733D50075B68D /* ProfileScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenRouter.swift; sourceTree = "<group>"; };
+		5641A7992B87349E0075B68D /* ChatScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenView.swift; sourceTree = "<group>"; };
+		5641A79B2B8734AD0075B68D /* ChatScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatScreenView.storyboard; sourceTree = "<group>"; };
+		5641A79D2B8734C30075B68D /* ChatScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenPresenter.swift; sourceTree = "<group>"; };
+		5641A79F2B8734D30075B68D /* ChatScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenInteractor.swift; sourceTree = "<group>"; };
+		5641A7A12B8734F40075B68D /* ChatScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenEntity.swift; sourceTree = "<group>"; };
+		5641A7A32B8734FA0075B68D /* ChatScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenRouter.swift; sourceTree = "<group>"; };
+		5641A7A52B8735760075B68D /* TicketHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryView.swift; sourceTree = "<group>"; };
+		5641A7A72B8735830075B68D /* TicketHistoryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TicketHistoryView.storyboard; sourceTree = "<group>"; };
+		5641A7A92B8735A40075B68D /* TicketHistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryPresenter.swift; sourceTree = "<group>"; };
+		5641A7AB2B8735B30075B68D /* TicketHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryInteractor.swift; sourceTree = "<group>"; };
+		5641A7AD2B8735D70075B68D /* TicketHistoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryEntity.swift; sourceTree = "<group>"; };
+		5641A7AF2B8735E80075B68D /* TicketHistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryRouter.swift; sourceTree = "<group>"; };
 		56EB25D82B87260600028D8F /* AndonSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndonSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EB25DB2B87260600028D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EB25DD2B87260600028D8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56EB25DF2B87260600028D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56EB25E22B87260600028D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56EB25DF2B87260600028D8F /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		56EB25E22B87260600028D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeScreenView.storyboard; sourceTree = "<group>"; };
 		56EB25E42B87260800028D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56EB25E72B87260800028D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56EB25E92B87260800028D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EB25F72B87281E00028D8F /* MainTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarView.swift; sourceTree = "<group>"; };
+		56EB25F92B87286200028D8F /* MainTabbarView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabbarView.storyboard; sourceTree = "<group>"; };
+		56EB25FB2B87288000028D8F /* MainTabbarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarPresenter.swift; sourceTree = "<group>"; };
+		56EB25FD2B87288700028D8F /* MainTabbarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarInteractor.swift; sourceTree = "<group>"; };
+		56EB25FF2B87289400028D8F /* MainTabbarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarEntity.swift; sourceTree = "<group>"; };
+		56EB26012B87289C00028D8F /* MainTabbarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarRouter.swift; sourceTree = "<group>"; };
+		56EB26032B872AD700028D8F /* HomeScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenPresenter.swift; sourceTree = "<group>"; };
+		56EB26052B872B0400028D8F /* HomeScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenInteractor.swift; sourceTree = "<group>"; };
+		56EB26072B872B2800028D8F /* HomeScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEntity.swift; sourceTree = "<group>"; };
+		56EB26092B872B2E00028D8F /* HomeScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +93,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5641A7882B8733060075B68D /* TicketHistoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5641A7A52B8735760075B68D /* TicketHistoryView.swift */,
+				5641A7A72B8735830075B68D /* TicketHistoryView.storyboard */,
+				5641A7A92B8735A40075B68D /* TicketHistoryPresenter.swift */,
+				5641A7AB2B8735B30075B68D /* TicketHistoryInteractor.swift */,
+				5641A7AD2B8735D70075B68D /* TicketHistoryEntity.swift */,
+				5641A7AF2B8735E80075B68D /* TicketHistoryRouter.swift */,
+			);
+			path = TicketHistoryScreen;
+			sourceTree = "<group>";
+		};
+		5641A7892B8733190075B68D /* ChatScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5641A7992B87349E0075B68D /* ChatScreenView.swift */,
+				5641A79B2B8734AD0075B68D /* ChatScreenView.storyboard */,
+				5641A79D2B8734C30075B68D /* ChatScreenPresenter.swift */,
+				5641A79F2B8734D30075B68D /* ChatScreenInteractor.swift */,
+				5641A7A12B8734F40075B68D /* ChatScreenEntity.swift */,
+				5641A7A32B8734FA0075B68D /* ChatScreenRouter.swift */,
+			);
+			path = ChatScreen;
+			sourceTree = "<group>";
+		};
+		5641A78A2B8733240075B68D /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5641A78D2B8733A40075B68D /* ProfileScreenView.swift */,
+				5641A78F2B8733B50075B68D /* ProfileScreenView.storyboard */,
+				5641A7912B8733C00075B68D /* ProfileScreenPresenter.swift */,
+				5641A7932B8733C70075B68D /* ProfileScreenInteractor.swift */,
+				5641A7952B8733CF0075B68D /* ProfileScreenEntity.swift */,
+				5641A7972B8733D50075B68D /* ProfileScreenRouter.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
 		56EB25CF2B87260600028D8F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +151,92 @@
 		56EB25DA2B87260600028D8F /* AndonSystem */ = {
 			isa = PBXGroup;
 			children = (
-				56EB25DB2B87260600028D8F /* AppDelegate.swift */,
-				56EB25DD2B87260600028D8F /* SceneDelegate.swift */,
-				56EB25DF2B87260600028D8F /* ViewController.swift */,
-				56EB25E12B87260600028D8F /* Main.storyboard */,
-				56EB25E42B87260800028D8F /* Assets.xcassets */,
-				56EB25E62B87260800028D8F /* LaunchScreen.storyboard */,
+				56EB25EF2B87266C00028D8F /* App */,
+				56EB25F42B8726B900028D8F /* Common */,
+				56EB25F32B8726AF00028D8F /* Extensions */,
+				56EB25F22B8726A800028D8F /* Modules */,
+				56EB25F12B87269F00028D8F /* Networking */,
+				56EB25F02B87269600028D8F /* Resources */,
 				56EB25E92B87260800028D8F /* Info.plist */,
 			);
 			path = AndonSystem;
+			sourceTree = "<group>";
+		};
+		56EB25EF2B87266C00028D8F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				56EB25DB2B87260600028D8F /* AppDelegate.swift */,
+				56EB25DD2B87260600028D8F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		56EB25F02B87269600028D8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56EB25E42B87260800028D8F /* Assets.xcassets */,
+				56EB25E62B87260800028D8F /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56EB25F12B87269F00028D8F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		56EB25F22B8726A800028D8F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5641A78A2B8733240075B68D /* ProfileScreen */,
+				5641A7892B8733190075B68D /* ChatScreen */,
+				5641A7882B8733060075B68D /* TicketHistoryScreen */,
+				56EB25F62B8726E700028D8F /* HomeScreen */,
+				56EB25F52B8726DE00028D8F /* MainTabbar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		56EB25F32B8726AF00028D8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56EB25F42B8726B900028D8F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		56EB25F52B8726DE00028D8F /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				56EB25F72B87281E00028D8F /* MainTabbarView.swift */,
+				56EB25F92B87286200028D8F /* MainTabbarView.storyboard */,
+				56EB25FB2B87288000028D8F /* MainTabbarPresenter.swift */,
+				56EB25FD2B87288700028D8F /* MainTabbarInteractor.swift */,
+				56EB25FF2B87289400028D8F /* MainTabbarEntity.swift */,
+				56EB26012B87289C00028D8F /* MainTabbarRouter.swift */,
+			);
+			path = MainTabbar;
+			sourceTree = "<group>";
+		};
+		56EB25F62B8726E700028D8F /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				56EB25DF2B87260600028D8F /* HomeScreenView.swift */,
+				56EB25E12B87260600028D8F /* HomeScreenView.storyboard */,
+				56EB26032B872AD700028D8F /* HomeScreenPresenter.swift */,
+				56EB26052B872B0400028D8F /* HomeScreenInteractor.swift */,
+				56EB26072B872B2800028D8F /* HomeScreenEntity.swift */,
+				56EB26092B872B2E00028D8F /* HomeScreenRouter.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +297,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5641A7902B8733B50075B68D /* ProfileScreenView.storyboard in Resources */,
+				56EB25FA2B87286200028D8F /* MainTabbarView.storyboard in Resources */,
 				56EB25E82B87260800028D8F /* LaunchScreen.storyboard in Resources */,
+				5641A79C2B8734AD0075B68D /* ChatScreenView.storyboard in Resources */,
 				56EB25E52B87260800028D8F /* Assets.xcassets in Resources */,
-				56EB25E32B87260600028D8F /* Main.storyboard in Resources */,
+				56EB25E32B87260600028D8F /* HomeScreenView.storyboard in Resources */,
+				5641A7A82B8735830075B68D /* TicketHistoryView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +314,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56EB25E02B87260600028D8F /* ViewController.swift in Sources */,
+				5641A7922B8733C00075B68D /* ProfileScreenPresenter.swift in Sources */,
+				56EB25F82B87281E00028D8F /* MainTabbarView.swift in Sources */,
+				5641A7A42B8734FA0075B68D /* ChatScreenRouter.swift in Sources */,
+				5641A7962B8733CF0075B68D /* ProfileScreenEntity.swift in Sources */,
+				56EB26002B87289400028D8F /* MainTabbarEntity.swift in Sources */,
+				5641A7982B8733D50075B68D /* ProfileScreenRouter.swift in Sources */,
+				5641A7A22B8734F40075B68D /* ChatScreenEntity.swift in Sources */,
+				56EB25E02B87260600028D8F /* HomeScreenView.swift in Sources */,
+				5641A79A2B87349E0075B68D /* ChatScreenView.swift in Sources */,
+				5641A7B02B8735E80075B68D /* TicketHistoryRouter.swift in Sources */,
+				56EB26022B87289C00028D8F /* MainTabbarRouter.swift in Sources */,
+				5641A78E2B8733A40075B68D /* ProfileScreenView.swift in Sources */,
+				56EB25FC2B87288000028D8F /* MainTabbarPresenter.swift in Sources */,
 				56EB25DC2B87260600028D8F /* AppDelegate.swift in Sources */,
+				5641A7AA2B8735A40075B68D /* TicketHistoryPresenter.swift in Sources */,
+				5641A7AC2B8735B30075B68D /* TicketHistoryInteractor.swift in Sources */,
+				5641A7AE2B8735D70075B68D /* TicketHistoryEntity.swift in Sources */,
 				56EB25DE2B87260600028D8F /* SceneDelegate.swift in Sources */,
+				5641A7A02B8734D30075B68D /* ChatScreenInteractor.swift in Sources */,
+				56EB260A2B872B2E00028D8F /* HomeScreenRouter.swift in Sources */,
+				5641A79E2B8734C30075B68D /* ChatScreenPresenter.swift in Sources */,
+				56EB26062B872B0400028D8F /* HomeScreenInteractor.swift in Sources */,
+				56EB26042B872AD700028D8F /* HomeScreenPresenter.swift in Sources */,
+				56EB26082B872B2800028D8F /* HomeScreenEntity.swift in Sources */,
+				5641A7A62B8735760075B68D /* TicketHistoryView.swift in Sources */,
+				5641A7942B8733C70075B68D /* ProfileScreenInteractor.swift in Sources */,
+				56EB25FE2B87288700028D8F /* MainTabbarInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		56EB25E12B87260600028D8F /* Main.storyboard */ = {
+		56EB25E12B87260600028D8F /* HomeScreenView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				56EB25E22B87260600028D8F /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeScreenView.storyboard;
 			sourceTree = "<group>";
 		};
 		56EB25E62B87260800028D8F /* LaunchScreen.storyboard */ = {
@@ -295,16 +495,16 @@
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AndonSystem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Factory Andon";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rsilitonga112.AndonSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -323,16 +523,16 @@
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AndonSystem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Factory Andon";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rsilitonga112.AndonSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

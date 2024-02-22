@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeScreenView: UIViewController {
 
+    var presenter: HomeScreenPresenter?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        title = "Dashboard"
+        view.backgroundColor = .systemBackground
     }
 
 
