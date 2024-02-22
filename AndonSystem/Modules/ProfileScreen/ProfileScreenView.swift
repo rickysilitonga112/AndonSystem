@@ -7,14 +7,11 @@
 
 import UIKit
 
-class ProfileScreenView: UIViewController {
+class ProfileScreenView: BaseViewController {
     var presenter: ProfileScreenPresenter?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func preload() {
         title = "Profile"
-        view.backgroundColor = .systemBackground
     }
 
 }

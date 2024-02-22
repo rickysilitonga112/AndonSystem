@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ChatScreenPresenter {
+class ChatScreenPresenter: BasePresenter {
     private let interactor: ChatScreenInteractor
     
     init(interactor: ChatScreenInteractor) {

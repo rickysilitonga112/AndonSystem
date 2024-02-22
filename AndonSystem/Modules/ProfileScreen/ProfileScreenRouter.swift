@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProfileScreenRouter {
+class ProfileScreenRouter: BaseRouter {
     func showView() -> ProfileScreenView {
         let storyboard = UIStoryboard(name: String(describing: ProfileScreenView.self), bundle: nil)
         guard let view = storyboard.instantiateViewController(withIdentifier: String(describing: ProfileScreenView.self)) as? ProfileScreenView else {

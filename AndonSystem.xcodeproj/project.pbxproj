@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA33CA529A51EFF838088D5 /* Pods_AndonSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F0F41065437448AE2D84D8 /* Pods_AndonSystem.framework */; };
 		5641A78E2B8733A40075B68D /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A78D2B8733A40075B68D /* ProfileScreenView.swift */; };
 		5641A7902B8733B50075B68D /* ProfileScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5641A78F2B8733B50075B68D /* ProfileScreenView.storyboard */; };
 		5641A7922B8733C00075B68D /* ProfileScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7912B8733C00075B68D /* ProfileScreenPresenter.swift */; };
@@ -25,6 +26,10 @@
 		5641A7AC2B8735B30075B68D /* TicketHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7AB2B8735B30075B68D /* TicketHistoryInteractor.swift */; };
 		5641A7AE2B8735D70075B68D /* TicketHistoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7AD2B8735D70075B68D /* TicketHistoryEntity.swift */; };
 		5641A7B02B8735E80075B68D /* TicketHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641A7AF2B8735E80075B68D /* TicketHistoryRouter.swift */; };
+		565A0FB02B874770006701B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FAF2B874770006701B3 /* BaseViewController.swift */; };
+		565A0FB22B874878006701B3 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FB12B874878006701B3 /* BaseInteractor.swift */; };
+		565A0FB42B87487F006701B3 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FB32B87487F006701B3 /* BasePresenter.swift */; };
+		565A0FB62B874887006701B3 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FB52B874887006701B3 /* BaseRouter.swift */; };
 		56EB25DC2B87260600028D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DB2B87260600028D8F /* AppDelegate.swift */; };
 		56EB25DE2B87260600028D8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DD2B87260600028D8F /* SceneDelegate.swift */; };
 		56EB25E02B87260600028D8F /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DF2B87260600028D8F /* HomeScreenView.swift */; };
@@ -44,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46A5BB4F7CCD24E2BAF273D1 /* Pods-AndonSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndonSystem.debug.xcconfig"; path = "Target Support Files/Pods-AndonSystem/Pods-AndonSystem.debug.xcconfig"; sourceTree = "<group>"; };
 		5641A78D2B8733A40075B68D /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
 		5641A78F2B8733B50075B68D /* ProfileScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreenView.storyboard; sourceTree = "<group>"; };
 		5641A7912B8733C00075B68D /* ProfileScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenPresenter.swift; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 		5641A7AB2B8735B30075B68D /* TicketHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryInteractor.swift; sourceTree = "<group>"; };
 		5641A7AD2B8735D70075B68D /* TicketHistoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryEntity.swift; sourceTree = "<group>"; };
 		5641A7AF2B8735E80075B68D /* TicketHistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketHistoryRouter.swift; sourceTree = "<group>"; };
+		565A0FAF2B874770006701B3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		565A0FB12B874878006701B3 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		565A0FB32B87487F006701B3 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		565A0FB52B874887006701B3 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 		56EB25D82B87260600028D8F /* AndonSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndonSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EB25DB2B87260600028D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EB25DD2B87260600028D8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,8 @@
 		56EB26052B872B0400028D8F /* HomeScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenInteractor.swift; sourceTree = "<group>"; };
 		56EB26072B872B2800028D8F /* HomeScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenEntity.swift; sourceTree = "<group>"; };
 		56EB26092B872B2E00028D8F /* HomeScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRouter.swift; sourceTree = "<group>"; };
+		70F0F41065437448AE2D84D8 /* Pods_AndonSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndonSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC36E14272984E0B4675380 /* Pods-AndonSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndonSystem.release.xcconfig"; path = "Target Support Files/Pods-AndonSystem/Pods-AndonSystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +99,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA33CA529A51EFF838088D5 /* Pods_AndonSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27B724EFD72B390C9BFF301D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F0F41065437448AE2D84D8 /* Pods_AndonSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5641A7882B8733060075B68D /* TicketHistoryScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +153,24 @@
 			path = ProfileScreen;
 			sourceTree = "<group>";
 		};
+		565A0FAE2B874758006701B3 /* BaseModules */ = {
+			isa = PBXGroup;
+			children = (
+				565A0FB12B874878006701B3 /* BaseInteractor.swift */,
+				565A0FB32B87487F006701B3 /* BasePresenter.swift */,
+				565A0FB52B874887006701B3 /* BaseRouter.swift */,
+				565A0FAF2B874770006701B3 /* BaseViewController.swift */,
+			);
+			path = BaseModules;
+			sourceTree = "<group>";
+		};
 		56EB25CF2B87260600028D8F = {
 			isa = PBXGroup;
 			children = (
 				56EB25DA2B87260600028D8F /* AndonSystem */,
 				56EB25D92B87260600028D8F /* Products */,
+				E96C43A20175632A67C4CB8A /* Pods */,
+				27B724EFD72B390C9BFF301D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +243,7 @@
 		56EB25F42B8726B900028D8F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				565A0FAE2B874758006701B3 /* BaseModules */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -239,6 +274,15 @@
 			path = HomeScreen;
 			sourceTree = "<group>";
 		};
+		E96C43A20175632A67C4CB8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A5BB4F7CCD24E2BAF273D1 /* Pods-AndonSystem.debug.xcconfig */,
+				9EC36E14272984E0B4675380 /* Pods-AndonSystem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56EB25EC2B87260800028D8F /* Build configuration list for PBXNativeTarget "AndonSystem" */;
 			buildPhases = (
+				46F3A1B13A25E063F309708B /* [CP] Check Pods Manifest.lock */,
 				56EB25D42B87260600028D8F /* Sources */,
 				56EB25D52B87260600028D8F /* Frameworks */,
 				56EB25D62B87260600028D8F /* Resources */,
+				0CE7A6B513319B8DF75B655F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,19 +355,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CE7A6B513319B8DF75B655F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndonSystem/Pods-AndonSystem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndonSystem/Pods-AndonSystem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndonSystem/Pods-AndonSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46F3A1B13A25E063F309708B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndonSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56EB25D42B87260600028D8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5641A7922B8733C00075B68D /* ProfileScreenPresenter.swift in Sources */,
+				565A0FB42B87487F006701B3 /* BasePresenter.swift in Sources */,
 				56EB25F82B87281E00028D8F /* MainTabbarView.swift in Sources */,
 				5641A7A42B8734FA0075B68D /* ChatScreenRouter.swift in Sources */,
 				5641A7962B8733CF0075B68D /* ProfileScreenEntity.swift in Sources */,
 				56EB26002B87289400028D8F /* MainTabbarEntity.swift in Sources */,
+				565A0FB02B874770006701B3 /* BaseViewController.swift in Sources */,
 				5641A7982B8733D50075B68D /* ProfileScreenRouter.swift in Sources */,
 				5641A7A22B8734F40075B68D /* ChatScreenEntity.swift in Sources */,
 				56EB25E02B87260600028D8F /* HomeScreenView.swift in Sources */,
+				565A0FB22B874878006701B3 /* BaseInteractor.swift in Sources */,
 				5641A79A2B87349E0075B68D /* ChatScreenView.swift in Sources */,
 				5641A7B02B8735E80075B68D /* TicketHistoryRouter.swift in Sources */,
 				56EB26022B87289C00028D8F /* MainTabbarRouter.swift in Sources */,
@@ -337,6 +428,7 @@
 				5641A79E2B8734C30075B68D /* ChatScreenPresenter.swift in Sources */,
 				56EB26062B872B0400028D8F /* HomeScreenInteractor.swift in Sources */,
 				56EB26042B872AD700028D8F /* HomeScreenPresenter.swift in Sources */,
+				565A0FB62B874887006701B3 /* BaseRouter.swift in Sources */,
 				56EB26082B872B2800028D8F /* HomeScreenEntity.swift in Sources */,
 				5641A7A62B8735760075B68D /* TicketHistoryView.swift in Sources */,
 				5641A7942B8733C70075B68D /* ProfileScreenInteractor.swift in Sources */,
@@ -487,12 +579,14 @@
 		};
 		56EB25ED2B87260800028D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A5BB4F7CCD24E2BAF273D1 /* Pods-AndonSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AndonSystem/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Factory Andon";
@@ -515,12 +609,14 @@
 		};
 		56EB25EE2B87260800028D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC36E14272984E0B4675380 /* Pods-AndonSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KFD27J2TGQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AndonSystem/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Factory Andon";

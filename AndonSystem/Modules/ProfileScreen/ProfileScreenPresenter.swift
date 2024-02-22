@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ProfileScreenPresenter {
+class ProfileScreenPresenter: BasePresenter {
     private let interactor: ProfileScreenInteractor
     
     init(interactor: ProfileScreenInteractor) {

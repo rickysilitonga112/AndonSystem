@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TicketHistoryPresenter {
+class TicketHistoryPresenter: BasePresenter {
     private let interactor: TicketHistoryInteractor
     
     init(interactor: TicketHistoryInteractor) {

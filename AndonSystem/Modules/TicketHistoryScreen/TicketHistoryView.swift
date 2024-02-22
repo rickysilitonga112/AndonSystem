@@ -7,13 +7,11 @@
 
 import UIKit
 
-class TicketHistoryView: UIViewController {
+class TicketHistoryView: BaseViewController {
     var presenter: TicketHistoryPresenter?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func preload() {
+        title = "History"
         
-        title = "Ticket History"
-        view.backgroundColor = .systemBackground
     }
 }

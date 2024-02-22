@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TicketHistoryRouter {
+class TicketHistoryRouter: BaseRouter {
     func showView() -> TicketHistoryView {
         let storyboard = UIStoryboard(name: String(describing: TicketHistoryView.self), bundle: nil)
         guard let view = storyboard.instantiateViewController(withIdentifier: String(describing: TicketHistoryView.self)) as? TicketHistoryView else {

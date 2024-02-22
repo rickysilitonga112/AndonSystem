@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import RxSwift
 
-class ChatScreenInteractor {
+class ChatScreenInteractor: BaseInteractor {
     
 }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabbarPresenter {
+class MainTabbarPresenter: BasePresenter {
     private let interactor: MainTabbarInteractor
     private let router = MainTabbarRouter()
     

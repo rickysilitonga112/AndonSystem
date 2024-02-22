@@ -7,14 +7,11 @@
 
 import UIKit
 
-class ChatScreenView: UIViewController {
+class ChatScreenView: BaseViewController {
     var presenter: ChatScreenPresenter?
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func preload() {
         title = "Chats"
-        view.backgroundColor = .systemBackground
     }
 
 }

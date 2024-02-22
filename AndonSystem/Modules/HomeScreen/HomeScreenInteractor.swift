@@ -7,6 +7,6 @@
 
 import Foundation
 
-class HomeScreenInteractor {
+class HomeScreenInteractor: BaseInteractor {
     
 }

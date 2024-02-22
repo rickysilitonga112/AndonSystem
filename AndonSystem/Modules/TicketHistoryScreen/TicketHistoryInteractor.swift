@@ -7,6 +7,6 @@
 
 import Foundation
 
-class TicketHistoryInteractor {
+class TicketHistoryInteractor: BaseInteractor {
     
 }

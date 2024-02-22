@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeScreenRouter {
+class HomeScreenRouter: BaseRouter {
     func showView() -> HomeScreenView {
         let storyboard = UIStoryboard(name: String(describing: HomeScreenView.self), bundle: nil)
         guard let view = storyboard.instantiateViewController(withIdentifier: String(describing: HomeScreenView.self)) as? HomeScreenView else {

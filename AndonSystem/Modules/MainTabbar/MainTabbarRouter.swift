@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabbarRouter {
+class MainTabbarRouter: BaseRouter {
     func showView() -> MainTabbarView {
         let storyboard = UIStoryboard(name: String(describing: MainTabbarView.self), bundle: nil)
         guard let view = storyboard.instantiateViewController(withIdentifier: String(describing: MainTabbarView.self)) as? MainTabbarView else {
@@ -35,7 +35,7 @@ class MainTabbarRouter {
         let view = UINavigationController(rootViewController: TicketHistoryRouter().showView())
         view.tabBarItem = UITabBarItem(title: "History",
                                        image: UIImage(systemName: "list.clipboard.fill"),
-                                       tag: 0
+                                       tag: 1
         )
         view.navigationBar.prefersLargeTitles = true
         view.navigationItem.largeTitleDisplayMode = .automatic
@@ -46,7 +46,7 @@ class MainTabbarRouter {
         let view = UINavigationController(rootViewController: ChatScreenRouter().showView())
         view.tabBarItem = UITabBarItem(title: "Chats",
                                        image: UIImage(systemName: "message.badge.fill"),
-                                       tag: 0
+                                       tag: 2
         )
         view.navigationBar.prefersLargeTitles = true
         view.navigationItem.largeTitleDisplayMode = .automatic
@@ -57,7 +57,7 @@ class MainTabbarRouter {
         let view = UINavigationController(rootViewController: ProfileScreenRouter().showView())
         view.tabBarItem = UITabBarItem(title: "Profile",
                                        image: UIImage(systemName: "person.fill"),
-                                       tag: 0
+                                       tag: 3
         )
         view.navigationBar.prefersLargeTitles = true
         view.navigationItem.largeTitleDisplayMode = .automatic

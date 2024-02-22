@@ -7,7 +7,7 @@
 
 import Foundation
 
-class HomeScreenPresenter {
+class HomeScreenPresenter: BasePresenter {
     private let interactor: HomeScreenInteractor
     
     init(interactor: HomeScreenInteractor) {

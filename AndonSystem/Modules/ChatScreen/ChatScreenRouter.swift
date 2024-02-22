@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChatScreenRouter {
+class ChatScreenRouter: BaseRouter {
     func showView() -> ChatScreenView {
         let storyboard = UIStoryboard(name: String(describing: ChatScreenView.self), bundle: nil)
         guard let view = storyboard.instantiateViewController(withIdentifier: String(describing: ChatScreenView.self)) as? ChatScreenView else {
