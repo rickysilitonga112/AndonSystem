@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+enum RegisterButtons: Int, CaseIterable {
+    case register = 0
+    case toLogin = 1
+    
+    func getIndex() -> Int {
+        return self.rawValue
+    }
+}
