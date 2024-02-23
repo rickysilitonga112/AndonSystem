@@ -17,9 +17,11 @@ class BaseViewController: UIViewController {
         navigationSetup()
         listenForNotifications()
         checkConnection()
-        if loginStatus() {
-            // go to the first vc
-        }
+       
+//        if isLogin() {
+//            let loginVC = LoginRouter().showView()
+//            navigationController?.pushViewController(LoginRouter().showView(), animated: true)
+//        }
         preload()
     }
 
@@ -47,9 +49,9 @@ class BaseViewController: UIViewController {
     
     func dismissLoginViewFromNavigationHierarcy() {
         guard let navigation = navigationController else { return }
-//        if let loginView = navigation.viewControllers.filter({ $0.isKind(of: LoginView.self) }).first {
-//            navigation.viewControllers.removeAll(where: { $0 == loginView })
-//        }
+        if let loginView = navigation.viewControllers.filter({ $0.isKind(of: LoginView.self) }).first {
+            navigation.viewControllers.removeAll(where: { $0 == loginView })
+        }
     }
     
     private func listenForNotifications() {
@@ -59,8 +61,7 @@ class BaseViewController: UIViewController {
 
 // login status
 extension BaseViewController {
-    func loginStatus() -> Bool {
-        return false
-        
+    func isLogin() -> Bool {
+        return true
     }
 }

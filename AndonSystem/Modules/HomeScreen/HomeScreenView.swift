@@ -12,6 +12,7 @@ class HomeScreenView: BaseViewController {
     var presenter: HomeScreenPresenter?
     
     override func preload() {
+        print(String(describing:  UIApplication.shared.windows.count))
         title = "Dashboard"
     }
 

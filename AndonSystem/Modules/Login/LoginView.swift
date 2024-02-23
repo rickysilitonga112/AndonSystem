@@ -7,47 +7,42 @@
 
 import UIKit
 
-class LoginView: BaseViewController {
+class LoginView: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
     var presenter: LoginPresenter?
-    
-    override func preload() {
-        title = "Login"
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
         setupUI()
     }
-    
-    
     private func setupUI() {
         imageView.image = UIImage(named: "logo")
         imageView.contentMode = .scaleToFill
         imageView.clipsToBounds = true
-        
-        emailTextField.placeholder = "Enter your email"
-        emailTextField.backgroundColor = .tertiarySystemBackground
+
         emailTextField.layer.cornerRadius = 10
-        emailTextField.textContentType = .emailAddress
-        emailTextField.autocorrectionType = .no
-        emailTextField.keyboardType = .emailAddress
-        emailTextField.font = .systemFont(ofSize: 16, weight: .regular)
-        
-        passwordTextField.placeholder = "Enter your password"
-        passwordTextField.backgroundColor = .tertiarySystemBackground
         passwordTextField.layer.cornerRadius = 10
-        passwordTextField.autocorrectionType = .no
-        passwordTextField.textContentType = .password
-        passwordTextField.isSecureTextEntry = true
-        passwordTextField.font = .systemFont(ofSize: 16, weight: .regular)
     }
     
-    @IBAction func forgotPasswordDidTap(_ sender: Any) {
-        
-    }
     
-    @IBAction func signInDidTap(_ sender: Any) {
-        
+    @IBAction func didTapButtons(_ sender: UIButton) {
+        guard let presenter = presenter,
+              let navigation = self.navigationController else {
+            return
+        }
+        switch sender.tag {
+        case LoginButons.forgotPassword.getIndex():
+        break
+        case LoginButons.login.getIndex():
+            presenter.setupRootViewController()
+        case LoginButons.register.getIndex():
+            presenter.navigateToRegister(from: navigation)
+        default:
+            break
+        }
     }
 }

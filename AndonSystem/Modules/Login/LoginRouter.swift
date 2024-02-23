@@ -22,4 +22,16 @@ class LoginRouter: BaseRouter {
         return view
     }
     
+    func setupRootViewController() {
+        UIApplication.shared.windows.first?.rootViewController = MainTabbarRouter().showView()
+    }
+    
+    func navigateToRegister(from navigation: UINavigationController) {
+        let register = RegisterRouter().showView()
+        
+        
+        navigation.pushViewController(register, animated: true)
+    }
+    
+    
 }

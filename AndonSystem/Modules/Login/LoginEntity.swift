@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+enum LoginButons: Int, CaseIterable {
+    case forgotPassword = 0
+    case login = 1
+    case register = 2
+    
+    func getIndex() -> Int {
+        return self.rawValue
+    }
+}

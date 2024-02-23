@@ -17,8 +17,12 @@ class RegisterRouter: BaseRouter {
         }
         let interactor = RegisterInteractor()
         let presenter = RegisterPresenter(interactor: interactor)
-        
+        view.navigationItem.setHidesBackButton(true, animated: false)
         view.presenter = presenter
         return view
+    }
+    
+    func navigateToLogin(from navigation: UINavigationController) {
+        navigation.popViewController(animated: true)
     }
 }
