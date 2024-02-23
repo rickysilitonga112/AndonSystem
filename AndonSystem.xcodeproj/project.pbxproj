@@ -64,6 +64,12 @@
 		565A0FF82B87A5AE006701B3 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FF72B87A5AE006701B3 /* LoginInteractor.swift */; };
 		565A0FFA2B87A5E1006701B3 /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FF92B87A5E1006701B3 /* LoginEntity.swift */; };
 		565A0FFC2B87A5E8006701B3 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FFB2B87A5E8006701B3 /* LoginRouter.swift */; };
+		565A0FFF2B87C440006701B3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A0FFE2B87C440006701B3 /* RegisterView.swift */; };
+		565A10012B87C450006701B3 /* RegisterView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565A10002B87C450006701B3 /* RegisterView.storyboard */; };
+		565A10032B87C459006701B3 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A10022B87C459006701B3 /* RegisterPresenter.swift */; };
+		565A10052B87C466006701B3 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A10042B87C466006701B3 /* RegisterInteractor.swift */; };
+		565A10072B87C46D006701B3 /* RegisterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A10062B87C46D006701B3 /* RegisterEntity.swift */; };
+		565A10092B87C476006701B3 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A10082B87C476006701B3 /* RegisterRouter.swift */; };
 		56EB25DC2B87260600028D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DB2B87260600028D8F /* AppDelegate.swift */; };
 		56EB25DE2B87260600028D8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DD2B87260600028D8F /* SceneDelegate.swift */; };
 		56EB25E02B87260600028D8F /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB25DF2B87260600028D8F /* HomeScreenView.swift */; };
@@ -113,6 +119,12 @@
 		565A0FF72B87A5AE006701B3 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		565A0FF92B87A5E1006701B3 /* LoginEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
 		565A0FFB2B87A5E8006701B3 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		565A0FFE2B87C440006701B3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		565A10002B87C450006701B3 /* RegisterView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterView.storyboard; sourceTree = "<group>"; };
+		565A10022B87C459006701B3 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		565A10042B87C466006701B3 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		565A10062B87C46D006701B3 /* RegisterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEntity.swift; sourceTree = "<group>"; };
+		565A10082B87C476006701B3 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
 		56EB25D82B87260600028D8F /* AndonSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndonSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EB25DB2B87260600028D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EB25DD2B87260600028D8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -245,6 +257,19 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		565A0FFD2B87C421006701B3 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				565A0FFE2B87C440006701B3 /* RegisterView.swift */,
+				565A10002B87C450006701B3 /* RegisterView.storyboard */,
+				565A10022B87C459006701B3 /* RegisterPresenter.swift */,
+				565A10042B87C466006701B3 /* RegisterInteractor.swift */,
+				565A10062B87C46D006701B3 /* RegisterEntity.swift */,
+				565A10082B87C476006701B3 /* RegisterRouter.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		56EB25CF2B87260600028D8F = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +331,7 @@
 		56EB25F22B8726A800028D8F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				565A0FFD2B87C421006701B3 /* Register */,
 				565A0FF02B87A562006701B3 /* Login */,
 				5641A78A2B8733240075B68D /* ProfileScreen */,
 				5641A7892B8733190075B68D /* ChatScreen */,
@@ -460,6 +486,7 @@
 			files = (
 				5641A7902B8733B50075B68D /* ProfileScreenView.storyboard in Resources */,
 				565A0FB82B87591B006701B3 /* GoogleService-Info.plist in Resources */,
+				565A10012B87C450006701B3 /* RegisterView.storyboard in Resources */,
 				56EB25FA2B87286200028D8F /* MainTabbarView.storyboard in Resources */,
 				56EB25E82B87260800028D8F /* LaunchScreen.storyboard in Resources */,
 				5641A79C2B8734AD0075B68D /* ChatScreenView.storyboard in Resources */,
@@ -530,10 +557,13 @@
 				565A0FB02B874770006701B3 /* BaseViewController.swift in Sources */,
 				5641A7982B8733D50075B68D /* ProfileScreenRouter.swift in Sources */,
 				5641A7A22B8734F40075B68D /* ChatScreenEntity.swift in Sources */,
+				565A10032B87C459006701B3 /* RegisterPresenter.swift in Sources */,
 				56EB25E02B87260600028D8F /* HomeScreenView.swift in Sources */,
 				565A0FB22B874878006701B3 /* BaseInteractor.swift in Sources */,
+				565A0FFF2B87C440006701B3 /* RegisterView.swift in Sources */,
 				5641A79A2B87349E0075B68D /* ChatScreenView.swift in Sources */,
 				565A0FFC2B87A5E8006701B3 /* LoginRouter.swift in Sources */,
+				565A10072B87C46D006701B3 /* RegisterEntity.swift in Sources */,
 				5641A7B02B8735E80075B68D /* TicketHistoryRouter.swift in Sources */,
 				56EB26022B87289C00028D8F /* MainTabbarRouter.swift in Sources */,
 				5641A78E2B8733A40075B68D /* ProfileScreenView.swift in Sources */,
@@ -545,6 +575,7 @@
 				5641A7AE2B8735D70075B68D /* TicketHistoryEntity.swift in Sources */,
 				56EB25DE2B87260600028D8F /* SceneDelegate.swift in Sources */,
 				5641A7A02B8734D30075B68D /* ChatScreenInteractor.swift in Sources */,
+				565A10092B87C476006701B3 /* RegisterRouter.swift in Sources */,
 				56EB260A2B872B2E00028D8F /* HomeScreenRouter.swift in Sources */,
 				5641A79E2B8734C30075B68D /* ChatScreenPresenter.swift in Sources */,
 				56EB26062B872B0400028D8F /* HomeScreenInteractor.swift in Sources */,
@@ -553,6 +584,7 @@
 				56EB26082B872B2800028D8F /* HomeScreenEntity.swift in Sources */,
 				5641A7A62B8735760075B68D /* TicketHistoryView.swift in Sources */,
 				5641A7942B8733C70075B68D /* ProfileScreenInteractor.swift in Sources */,
+				565A10052B87C466006701B3 /* RegisterInteractor.swift in Sources */,
 				565A0FF22B87A579006701B3 /* LoginView.swift in Sources */,
 				56EB25FE2B87288700028D8F /* MainTabbarInteractor.swift in Sources */,
 			);
